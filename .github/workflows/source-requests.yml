@@ -1,0 +1,23 @@
+name: Source request integrity
+on:
+  pull_request:
+    paths:
+      - 'docs/TOC.md'
+      - 'docs/PLAN.md'
+      - 'scripts/check-source-requests.mjs'
+      - '.github/workflows/source-requests.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'docs/TOC.md'
+      - 'docs/PLAN.md'
+      - 'scripts/check-source-requests.mjs'
+      - '.github/workflows/source-requests.yml'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: node scripts/check-source-requests.mjs
