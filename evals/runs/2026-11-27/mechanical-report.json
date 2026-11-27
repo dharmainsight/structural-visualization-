@@ -1,0 +1,16 @@
+{
+  "runtimeFiles": 11,
+  "archiveContentHashesMatch": true,
+  "responseIds": 72,
+  "responsesPresent": true,
+  "numericChecks": [
+    "E58: truncated-bar ratio",
+    "E60: circle area and radius",
+    "E63: inclusion-exclusion and percentages",
+    "E64: observed difference",
+    "E67: shared cost counted once"
+  ],
+  "runtimeManifest": "runtime-final-manifest.json",
+  "uniqueCases": 72,
+  "responseExecutions": 83
+}

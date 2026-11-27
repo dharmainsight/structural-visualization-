@@ -1,0 +1,13 @@
+{
+  "SKILL.md": "6815956614cadd4244dfc272ce96ac75713c7545b09bc5277351ab2c14c43d5e",
+  "agents/openai.yaml": "f0e2031ef6ce832bf1588f40263a7507a41fce5b2917ded0ee712d7c4137c157",
+  "references/composition.md": "8b4e263c4f91044913e3a54dd8d6fb51fb382a0e300f3d8162cf0df62a6e04e2",
+  "references/cycle.md": "d0f603514357603b637cad9b4cd5274396b4adaf65340813b0ec83b443e7edc0",
+  "references/examples.md": "52caf9635fabe59b77a3d1382bf1a770c0877a8b4adbcb203337a4a6e16019cd",
+  "references/hierarchy.md": "d8ec9a52c13b8d1232add41a7cb60b2932a6c2ba63ec00f148beb326dc65531b",
+  "references/matrix.md": "31f56b913bc04c26ca08747ee58848da544a434ef1a805a51aa4215f66c0883b",
+  "references/parallel.md": "0b06e96123c6672cd77e496736eba28066ce0a337340287a1323e0ec9ac40e43",
+  "references/sequence.md": "9199a0eb593e9b4ccd0662d9f93e13aa05d2cff3ce4d9e5b690d0ad312109d57",
+  "references/structures.md": "6cf1c2caca8df5187aadedc926c28b921ff66511cd4def43c990e719d904251e",
+  "references/visual-grammar.md": "64d09288c793eefec0bbe7409b1dce49e743dd1b5bd5cb8444ea9cf78a21abb5"
+}

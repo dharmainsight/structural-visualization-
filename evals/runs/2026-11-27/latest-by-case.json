@@ -1,0 +1,1238 @@
+{
+  "summary": {
+    "unique_cases": 72,
+    "response_executions": 83,
+    "verdicts": {
+      "pass": 68,
+      "pass_with_notes": 4
+    },
+    "critical_failures": 0,
+    "scope": "Latest available result per case; not a full rerun of all 72 cases against the final runtime."
+  },
+  "cases": {
+    "E01": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "「SQLの『データ型』を指す前提」を明示し、同じ用途水準で代表型を比較。「型名・対応状況・格納範囲はデータベース製品で異なる」と方言差・非網羅性を留保。",
+        "improvement": null
+      }
+    },
+    "E02": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "訪問者U・購入者B・注文O・売上Sを同期間・同範囲で定義し、U×(B÷U)×(O÷B)×(S÷O)=Sを保持。ゼロ分母も計算不可と明記。",
+        "improvement": null
+      }
+    },
+    "E03": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "「候補の座標や優先順位はまだ決められません」とし、費用・効果を未測定のまま表示。定性評価には判定基準と理由を要求し、架空の位置を補わない。",
+        "improvement": null
+      }
+    },
+    "E04": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "審査・本人確認を別枝で示し、申請→承認→発行を保持。前後への配置を「整理案」、承認の合流条件を「未確認」と明示し、未提示の条件を事実化しない。",
+        "improvement": null
+      }
+    },
+    "E05": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "「更新した計画で次回の学習」を明示して戻りを保持。「計画を更新したことと、成績が向上したことは分けて扱う」と効果を留保。",
+        "improvement": null
+      }
+    },
+    "E06": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "回答は「1バイトは8ビットです。」の一文のみ。単一事実に不要な図や構造を加えていない。",
+        "improvement": null
+      }
+    },
+    "E07": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "「相互依存は両方向の関係を残します」とし、待つ側・提供側・必要成果物を対応表にする。未提示のチームや接続を補わず、木構造へ強制しない。",
+        "improvement": null
+      }
+    },
+    "E08": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "「同じ対象ID・軸の定義・単位・表示範囲」を要求。複数時点の観測値がある場合と、同一観測値しかない場合を分け、時点間の移動を捏造しない。",
+        "improvement": null
+      }
+    },
+    "E09": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "「今回列挙した顧客属性：3項目。その他の属性は未調査」と表示し、全体を網羅した分類とは扱わないことを明記。",
+        "improvement": null
+      }
+    },
+    "E10": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "温度測定→冷却の作動・停止→再測定を説明し、設定温度からのずれを抑える負のフィードバックとして整理。しきい値・遅れ・能力の未指定も保持。",
+        "improvement": null
+      }
+    },
+    "E11": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "「反復」と「不良率の低下や施策の効果は未確認」を区別。不良率の分母・未提示値を保持し、次回への反映は実施する場合の記録としている。",
+        "improvement": null
+      }
+    },
+    "E12": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "大分類ID・大分類名と作業ID・具体作業を別列にし、2水準の包含を保持。共通作業は同じIDを参照し、実行順序とも区別。",
+        "improvement": null
+      }
+    },
+    "E13": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "法定区分の法令・条項・施行日・適用範囲と、独自案の目的・版・所属条件を別列で比較。「現行性や個別の対応関係は確認できていません」と留保。",
+        "improvement": null
+      }
+    },
+    "E14": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "配送費C=W×rを示し、kg×円/kg=円を保持。「重量と単価は足し合わせる費用内訳ではなく…変数」と明示。",
+        "improvement": null
+      }
+    },
+    "E15": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "新規・既存と休眠を別軸にする案を明示。対象期間・初回購入時点・休眠条件の不足を残し、未購入者を含める場合の対象範囲も留保。",
+        "improvement": null
+      }
+    },
+    "E16": {
+      "run": "refined",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass_with_notes",
+        "critical_failure": false,
+        "evidence": "「合わない対象は残し、今回の目的に合う分類基準へ見直します」と反例・目的適合性を保持。範囲外・複数所属・不明を区別するが、元分類の出典・原定義を確認する手順は依然ない。",
+        "improvement": "元分類の著者・公開元・版や原定義の確認を加え、当初の対象・目的と今回の差を根拠に基づいて判断する。"
+      }
+    },
+    "E17": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "01〜12をすべて保持した記入表を提示し、「内容未提示」を監査結果と区別。意味のあるまとまりは項目内容が判明後とし、項目数を削減していない。",
+        "improvement": null
+      }
+    },
+    "E18": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "「各タグ内では…重複計上せず、タグ間の重複は許容」と整理。全体人数はIDの重複を除き、タグ別割合の合計が100%を超え得ることを明記。",
+        "improvement": null
+      }
+    },
+    "E19": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "同水準の比較、目的への寄与、工程の前後・依存を別の関係として記載。寄与や順序を効果の証拠とせず、単一の二項構造に強制しない。",
+        "improvement": null
+      }
+    },
+    "E20": {
+      "run": "status",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "全体目標・科目目標・個別課題を別行にし、寄与関係を整理。「対応未確認」は確認した結果の「対応なし」と明示的に区別し、未提示の個別対応や中間目標を補っていない。",
+        "improvement": null
+      }
+    },
+    "E21": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "「重点施策3件（抜粋・水準混在）」と明示。個別水準・関係は未提示のまま残し、全体系と断定せず「省略」と「未確認」も区別。",
+        "improvement": null
+      }
+    },
+    "E22": {
+      "run": "status",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "同じ機能FからカテゴリA・Bへの2つの所属関係を保持し、部品の使用関係とは分ける。共有先やFとの利用関係は未提示のまま残し、対象IDの重複を除いて数えることで二重計上を防いでいる。",
+        "improvement": null
+      }
+    },
+    "E23": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "方針、手段、対応理由、実施状況、期待効果、観測効果を分ける。方針への適合・実施・成果を別々に確認し、効果未測定をゼロや効果ありとしない。",
+        "improvement": null
+      }
+    },
+    "E24": {
+      "run": "refined",
+      "assessment": {
+        "scores": [
+          2,
+          1,
+          2,
+          1,
+          2,
+          2
+        ],
+        "verdict": "pass_with_notes",
+        "critical_failure": false,
+        "evidence": "「2水準」と必要な枝だけの詳細を保持し、同じ機能IDで対応づける。「見た目のために中間項目を追加しません」とするが、詳細の不存在・省略・未確認を区別する表示規則はない。",
+        "improvement": "詳細のない枝に「この深さで十分」「既知だが概要では省略」「詳細未確認」を区別して示す方針を補う。"
+      }
+    },
+    "E25": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "決済→金額帯を保持し、複数タグは別属性。判明した親の下に未分類を残し、各取引を1回だけ数えて未分類込み末端合計100件を確認する。",
+        "improvement": null
+      }
+    },
+    "E26": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "A・B・相互作用を別行にし、支持・反証・成立条件を記録。原因・寄与は未確定とし、「相互作用」だけで双方向因果や強め合いを断定しない。",
+        "improvement": null
+      }
+    },
+    "E27": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "監視・復旧手順・設計変更の役割と検証観点を示し、単純な三択を避ける。併用可否・前提・競合、組合せ全体の成立を確認し、有効性を保証しない。",
+        "improvement": null
+      }
+    },
+    "E28": {
+      "run": "refined",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "支持・反対データを同じ判断基準に対応づけ、導入条件と見送り条件を提示。「反対データが必須条件の未達を示すなら…結論を更新」とし、内容未提示の採否を断定しない。",
+        "improvement": null
+      }
+    },
+    "E29": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "部品構成、原因候補、修復案、支持・反対根拠を別の関係とIDで整理。「原因候補は部品の構成要素ではなく」など、4種の関係の混同を明示的に防ぐ。",
+        "improvement": null
+      }
+    },
+    "E30": {
+      "run": "refined",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "初期仮説を今回の検証範囲では採用せず、他仮説は個別の根拠で判断。報告を「現在の結論→根拠となる結果と適用条件→残る仮説と次の検証」とし、調査経緯は補足へ分ける。",
+        "improvement": null
+      }
+    },
+    "E31": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "「千円の値＝円の値÷1,000」と同一情報を検出し、1軸の費用表か別の判断情報を提案。単位変換を独立した評価として数えない。",
+        "improvement": null
+      }
+    },
+    "E32": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "待ち時間×離脱率の散布図を認め、長時間・低離脱の例外もIDで保持。粒度・分母・観測条件をそろえ、実測未提示の相関係数や因果を補わない。",
+        "improvement": null
+      }
+    },
+    "E33": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "製品A・B・C×電話・メールの3×2表を提示。すべて「未集計」とし、ゼロとの差、不明問い合わせ、複数製品にまたがる場合の規則を残す。",
+        "improvement": null
+      }
+    },
+    "E34": {
+      "run": "refined",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "低→中→高の順序を保持し、等間隔の平均点・「3倍」の解釈を避ける。割合の分母を要求し、未回答を低評価に含めないため、未提示の尺度や数値を補っていない。",
+        "improvement": null
+      }
+    },
+    "E35": {
+      "run": "refined",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          1,
+          2,
+          2
+        ],
+        "verdict": "pass_with_notes",
+        "critical_failure": false,
+        "evidence": "「測定項目の案で、製品評価の結果ではありません」と評価基準案と実測結果を区別し、座標・順位を留保。ただし発想用に置く暫定仮説と評価用の配置との用途区別は説明していない。",
+        "improvement": "発想用の暫定配置を行う場合は「未検証の仮説」と明示し、評価・順位決定には使わないという条件を補う。"
+      }
+    },
+    "E36": {
+      "run": "refined",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "10秒ちょうどを10秒以上だけへ割り当て、未集計とゼロ、不明を区別。「区分内の時間差はこの表には表れない」と情報損失を説明し、元の秒数の保持も示す。",
+        "improvement": null
+      }
+    },
+    "E37": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "稼働時間の必須条件を先に判定し、価格・重量・性能を保持。満たす／満たさない／判定不能を分け、未提示の閾値や値を補わない。",
+        "improvement": null
+      }
+    },
+    "E38": {
+      "run": "refined",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          1,
+          2,
+          2
+        ],
+        "verdict": "pass_with_notes",
+        "critical_failure": false,
+        "evidence": "欠測施策を点にせず別一覧へ残し、未決定の象限境界を作らない。単位・期間・測定条件をそろえるが、費用と改善率それぞれの望ましい方向は依然明示していない。",
+        "improvement": "費用の増加方向と改善率の符号・望ましい方向を定義し、軸ラベルまたは注記に加える。改善率の定義を確かめてから方向を決める。"
+      }
+    },
+    "E39": {
+      "run": "refined",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "全体満足度が価格満足度を含む算出上の重なりを指摘し、独立した加点での重複評価を留保。目的別の比較方法と算出式・重みの確認を示し、相関から因果や情報同一性を断定しない。",
+        "improvement": null
+      }
+    },
+    "E40": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "検品を「未実施を確認」、梱包を「実施状況が不明」と別状態にする。標準の適用条件、工程ID対応、記録要求と作業実施の差を保持。",
+        "improvement": null
+      }
+    },
+    "E41": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "全員受講済み、実務適用未測定、解決率が低い状態を別行で示す。実際の適用と結果の対応を次の確認対象とし、受講を能力・効果獲得としない。",
+        "improvement": null
+      }
+    },
+    "E42": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "通常と規程上の緊急経路を分け、正当な省略＝非適用、必須工程の未実施＝未充足、適用条件不明＝不明と区別。承認者や工程を補わない。",
+        "improvement": null
+      }
+    },
+    "E43": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "独立した2工程から「両方の完了を確認」へ合流し、その後に許可する図。「同時に開始する必要はありません」と部分順序を保持し、所要時間を捏造しない。",
+        "improvement": null
+      }
+    },
+    "E44": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "設定変更が先行した事実と、原因候補・調査未完了を分離。「時間的に近いことだけで、原因を確定しません」とし、因果へ変換していない。",
+        "improvement": null
+      }
+    },
+    "E45": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "包装短縮案、集荷時刻、手戻り率、出荷全体の指標を保持。同じ集荷便を待つ場合や再作業の影響を条件付きで示し、局所改善から全体効果を保証しない。",
+        "improvement": null
+      }
+    },
+    "E46": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "「聞き取りに基づく現状業務」として根拠・不明点を記録し、未合意の標準への適否を判定しない。標準案を作る場合も提案と合意済みを区別。",
+        "improvement": null
+      }
+    },
+    "E47": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "確定日と実施済みを別にし、後継機は将来の予定と表示。具体的日付がないため時点間隔・前後を補わず、等間隔の比例時間軸も描かない。",
+        "improvement": null
+      }
+    },
+    "E48": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "月次棚卸しを反復とし、結果を次回判断に使っていないためフィードバックや改善実績とはしない。活用案は「今後の運用案」と明示。",
+        "improvement": null
+      }
+    },
+    "E49": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "週を反復単位とし、実行→結果比較→次週修正を保持。成果値未測定と施策修正を区別し、未来の週へ作用する流れとしている。",
+        "improvement": null
+      }
+    },
+    "E50": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "集中型→分散型→集中型を各期に対応づけ、同じ呼称と技術・制度の差を併記。一定周期や後の方式の優越を断定しない。",
+        "improvement": null
+      }
+    },
+    "E51": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "速度上昇と誤り率上昇を別行で保持し、許容基準・前後値の不足を示す。全体改善や自動化の因果効果を前後差だけで確定しない。",
+        "improvement": null
+      }
+    },
+    "E52": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "全3辺を仮説ラベルと破線で結ぶ閉路を提示し、符号＋・−・−から自己強化方向を説明。負担が増えるループを好循環と呼ばず、影響量・遅れを留保。",
+        "improvement": null
+      }
+    },
+    "E53": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "在庫→補充→遅れを伴う入荷→在庫の均衡化方向と、外部の需要変動を保持。「在庫の安定は保証されません」と規則の方向と実際の安定性を分離。",
+        "improvement": null
+      }
+    },
+    "E54": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "相関の存在と、両方向の因果可能性・交絡の未調査を分ける。図示は方向のない線とし、未確認の双方向因果ループを作らない。",
+        "improvement": null
+      }
+    },
+    "E55": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "共通の処理能力Pを一つの変数としてL1・L2に対応づけ、介入はL1へ直接作用。Pを介した他ループへの影響を確認対象とし、全体解決を保証しない。",
+        "improvement": null
+      }
+    },
+    "E56": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "「受付→（中間工程は未提示）→発行」の一方向のみ提示。単発の順序要求に架空の工程や戻りを加えない。",
+        "improvement": null
+      }
+    },
+    "E57": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "意見を改良へ反映する運用と、機能変更→利用方法→次の意見という仮説を区別。次回の改良への反映を示し、意見の変化を品質改善の実績としない。",
+        "improvement": null
+      }
+    },
+    "E58": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "0起点の棒を勧め、80起点では表示長10対20、実値比100/90≈1.11であることを説明。再計算は一致し、点グラフの範囲明示も提案。",
+        "improvement": null
+      }
+    },
+    "E59": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "1・2・3を識別コードとして扱い、「コードの差から…距離や等間隔…は読み取れません」と明示。距離の定義と別測定を要求する。",
+        "improvement": null
+      }
+    },
+    "E60": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "面積比例の半径例を2・3とし、元案の面積比81/16≈5.06と数量比9/4=2.25を区別。再計算は一致し、共通倍率×平方根を明示。",
+        "improvement": null
+      }
+    },
+    "E61": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "✓完了／？不明という文字・記号を常時表示し、色を補助にする。不明を失敗とせず、完了・未完了を判断する情報不足として説明。",
+        "improvement": null
+      }
+    },
+    "E62": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "同じ軸範囲・単位・目盛り・図の大きさを要求。拡大図は両月が同範囲に収まる場合の共通90〜100とし、直接比較の尺度混在を避ける。",
+        "improvement": null
+      }
+    },
+    "E63": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "Aのみ35、Bのみ30、両方25、どちらもなし10に再計算し、合計100と分母100を保持。タグ別合計115%の重複理由も説明し、再計算は一致。",
+        "improvement": null
+      }
+    },
+    "E64": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "1日目10、2日目欠測、3日目14を保持し、確認できる差は4とする。連日の増加を断定せず、補間する場合のみ方法・仮定を要求。",
+        "improvement": null
+      }
+    },
+    "E65": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "必須条件10時間以上を保持し、A未達・B適合・C保留を正しく判定。Cが条件を満たす場合も稼働時間の重視度で選択が変わると留保。",
+        "improvement": null
+      }
+    },
+    "E66": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "P1〜P4の同じ行に工程・開始条件・状態を対応づけ、P2とP3の両方完了をP4の条件とする。未提示の現状は不明とし、未実施・完了を定義。",
+        "improvement": null
+      }
+    },
+    "E67": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "A・Bが同じXを利用すると対応づけ、「月1万円を1回だけ計上」と明示。既知Xの合計と、未提示の固有費用を含むサービス全体費用を区別。",
+        "improvement": null
+      }
+    },
+    "E68": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "2階層と4階層の必要深さを保持し、字体・字下げ・余白で統一。詳細を別表にする場合も参照先を残し、架空階層を追加しない。",
+        "improvement": null
+      }
+    },
+    "E69": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "移動時間だけでは方角・地理的位置を確定できないと明示。模式配置と時間付き関係図を提案し、未提示の都市・時間・座標を補わない。",
+        "improvement": null
+      }
+    },
+    "E70": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "順次進める場合の「基本案」として設計→実装→検証を提示し、担当は未提示のまま。役割案と実担当を分け、実際の前後・並行・差し戻しは確認事項にする。",
+        "improvement": null
+      }
+    },
+    "E71": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "A未測定、B3件減少、期間差を保持し、優劣を保留。期間当たりへの換算にも期間長が必要と明示し、未測定をゼロにしない。",
+        "improvement": null
+      }
+    },
+    "E72": {
+      "run": "initial",
+      "assessment": {
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "verdict": "pass",
+        "critical_failure": false,
+        "evidence": "Markdown表だけでS1受付→S2審査、不備時S3修正→S2再審査、問題なしS4発行を保持。同じ工程IDを用い、未対応の図は含めていない。",
+        "improvement": null
+      }
+    }
+  }
+}
