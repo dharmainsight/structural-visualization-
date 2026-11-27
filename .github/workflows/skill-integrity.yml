@@ -1,0 +1,32 @@
+name: Skill integrity
+on:
+  pull_request:
+    paths:
+      - 'structural-visualization/**'
+      - 'scripts/**'
+      - 'evals/CASES.md'
+      - 'README.md'
+      - 'docs/**'
+      - '.github/workflows/skill-integrity.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'structural-visualization/**'
+      - 'scripts/**'
+      - 'evals/CASES.md'
+      - 'README.md'
+      - 'docs/**'
+      - '.github/workflows/skill-integrity.yml'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/check-skill.mjs --self-test
+      - run: node scripts/check-skill.mjs
+      - run: node scripts/check-source-requests.mjs

@@ -1,0 +1,40 @@
+{
+  "parser": "mermaid",
+  "version": "12.3.0",
+  "results": [
+    {
+      "id": "example-1",
+      "status": "parsed",
+      "diagramType": "flowchart-v2",
+      "sourceSha256": "4afdcbbd97f4feb95c90b6cd9fb69d961e403f7a1c3f07bbcf7791159238eaf5"
+    },
+    {
+      "id": "E04-1",
+      "status": "parsed",
+      "diagramType": "flowchart-v2",
+      "sourceSha256": "9af2647b18f0c54a6263c3a2ef1e762311668cbb84996cd78203f63f18de2429"
+    },
+    {
+      "id": "E43-1",
+      "status": "parsed",
+      "diagramType": "flowchart-v2",
+      "sourceSha256": "297e172048ee16c219b73016d05ed25d5ed37497ff6418ebddb96a504e352a30"
+    },
+    {
+      "id": "E52-1",
+      "status": "parsed",
+      "diagramType": "flowchart-v2",
+      "sourceSha256": "5fcf94b4ce1ee85067a67930bca8eb36deb306117b384b71c48dac9fe4260937"
+    },
+    {
+      "id": "E53-1",
+      "status": "parsed",
+      "diagramType": "flowchart-v2",
+      "sourceSha256": "c9db963eb403cceedd185ea718270dbb03098f01e4891f2d8ecc4206a58afde6"
+    }
+  ],
+  "visualInspection": {
+    "status": "not_performed",
+    "reason": "No working browser binary was available; automatic browser download was blocked. Syntax parsing is not a rendering or readability check."
+  }
+}
