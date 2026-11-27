@@ -20,7 +20,7 @@
 @GitHub https://github.com/dharmainsight/structural-visualization- の開発を再開してください。mainと未マージのPRを確認し、最新のdocs/RESUME.mdおよびdocs/PLAN.mdに従って作業を継続してください。
 ```
 
-再開手順は [docs/RESUME.md](docs/RESUME.md)、進捗の正本は [docs/PLAN.md](docs/PLAN.md)。未マージの開発PRに新しい進捗がある場合は、mainだけで判断せずPRの実際のheadを読む。
+再開手順は [docs/RESUME.md](docs/RESUME.md)、進捗の正本は [docs/PLAN.md](docs/PLAN.md)、正式な資料指定の見出し台帳は [docs/TOC.md](docs/TOC.md)。未マージの開発PRに新しい進捗がある場合は、mainだけで判断せずPRの実際のheadを読む。
 
 着想元: 手塚貞治『武器としての戦略フレームワーク』（日本実業出版社）。表紙・目次および第1章の5分類の説明・概念図を確認済み。第2章の並列化の基本・5要件も確認済み。第3章の基本2節、ロジックツリーの3類型・要素分解の説明、ピラミッドとの比較を確認済み。原因分析型・課題解決型の個別詳説と第4〜6章の各論は未確認。著者の説明と独自の操作規則を区別する。
 
