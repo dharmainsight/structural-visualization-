@@ -13,7 +13,7 @@ GitHubを開発状態の正本とする。過去チャットや記憶を前提�
 1. default branch、最新コミット、開いているPRとhead SHAを取得する。
 2. mainの本ファイルと `docs/PLAN.md` を読み、関連する未マージPRの同一ファイルと差分を照合する。
 3. コミットの継承と作業目的を確かめ、一貫した基点を選ぶ。PRの更新日時だけで決めない。閉じられた未採用案を黙って復活させない。
-4. 同じrefの `structural-visualization/SKILL.md`、必要な参照、`evals/CASES.md`、`evals/RESULTS.md` を読む。
+4. 同じrefの `wakarimi/SKILL.md`、必要な参照、`evals/CASES.md`、`evals/RESULTS.md` を読む。
 
 現在の主対象は、特定資料に依存しない一般化された構造化スキル。実行時ディレクトリに書名・著者名・章番号・出典台帳・開発履歴を戻さない。事実や数値の根拠、不確実性、仮説の区別は維持する。
 
