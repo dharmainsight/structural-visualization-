@@ -10,10 +10,10 @@
 
 ## 現在地：使者資質の改良
 
-- main `1916b175dfc04ac24c6acc3b67f0bc1683478b82`、開始時のopen PRは0件。作業ブランチ `feat/messenger-qualities`。
+- main `1916b175dfc04ac24c6acc3b67f0bc1683478b82`、開始時のopen PRは0件。作業ブランチ `feat/messenger-qualities`、[PR #7](https://github.com/dharmainsight/structural-visualization-/pull/7)（open・未マージ）。
 - ユーザーの依頼により、AN 8.16（Dūteyyasutta、使者経）の八法を言語モデルの成果物作成へ応用する。経典の資質と現代の実行規範を同一視せず、実行時は一般化された規則として提供する。参照: https://suttacentral.net/an8.16/pli/ms
 - 実装: SKILL.mdに発信者・素材の原発言者・使者・読み手の区別、八資質、忠実性と和合の検証を追加。既存の構造選択・視覚文法・短答規則を維持。READMEとE73〜E81を更新。
-- 検証: 既存の評価実績は以前の版の結果。新規ケースと関連回帰の独立モデル適用は未実施。CIの静的検査結果はPRの最新headを取得して確認する。
+- 検証: 既存の評価実績は以前の版の結果。新規ケースと関連回帰の独立モデル適用は未実施。実装コミット `7c461947ea2b36683be16a696e089c5426b3caa8` の Skill integrity・Source request integrity はともに成功。実行時11ファイルは同コミットのGit blobハッシュと照合し、skill-creatorの検証・ZIP作成に成功。個人スキルへの再インストールは未実施。最新headのCIは再開時に確認する。
 - 次の作業: PRレビュー、新規・関連既存ケースの独立実行と結果記録。ユーザーの明示指示なしにマージしない。
 
 ## 以前の完成版（2026-11-27時点の記録）
