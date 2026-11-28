@@ -1,4 +1,0 @@
-interface:
-  display_name: "Structural Visualization"
-  short_description: "問いに合わせて情報の関係を構造化し、理解と判断に適した文章や図表を作る"
-  default_prompt: "$structural-visualization を使って、以下の情報を目的に合う構造と表現に整理してください。"
