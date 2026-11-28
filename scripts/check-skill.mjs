@@ -5,7 +5,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const skillName = "structural-visualization";
+const skillName = "wakarimi";
 const fixedPrompt = "@GitHub https://github.com/dharmainsight/structural-visualization- の開発を再開してください。mainと未マージのPRを確認し、最新のdocs/RESUME.mdおよびdocs/PLAN.mdに従って作業を継続してください。";
 const placeholders = /\b(?:TODO|TBD|FIXME|PLACEHOLDER)\b|\[(?:INSERT|ここに記入)[^\]]*\]/i;
 const provenance = /\bS01(?:-\d+[a-z]?)?\b|\bT0\d(?:\.\d{2})*\b|第[一二三四五六七八九十0-9]+章|(?:出典|着想元)\s*[:：]|\bPROPOSAL\b|原典(?:の着想|確認済み|との対応)|暫定実装/i;
@@ -158,7 +158,7 @@ function selfTest() {
   // In-memory synthetic fixtures are checker tests, not installed skills.
   const files = new Map([
     ["SKILL.md", "---\nname: " + skillName + "\ndescription: Structure information.\n---\n# Structure\n[Guide](references/guide.md)\n"],
-    ["agents/openai.yaml", 'interface:\n  display_name: "Structure"\n  short_description: "Structure information"\n  default_prompt: "Use $structural-visualization."\n'],
+    ["agents/openai.yaml", 'interface:\n  display_name: "Structure"\n  short_description: "Structure information"\n  default_prompt: "Use $wakarimi."\n'],
     ["references/guide.md", "# Guide\nPreserve known relationships.\n"],
   ]);
   const repository = new Map([
